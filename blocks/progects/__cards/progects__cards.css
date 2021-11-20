@@ -1,4 +1,9 @@
 .progects__cards {
-    margin: 40px 0;
+    margin: 42px 0;
     width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 320px);
+    column-gap: 20px;
+    row-gap: 30px;
 }

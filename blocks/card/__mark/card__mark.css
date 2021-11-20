@@ -1,0 +1,16 @@
+.card__mark {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #6195E4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.card__mark:last-of-type {
+    margin-right: 0;
+}

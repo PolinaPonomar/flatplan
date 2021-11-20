@@ -1,0 +1,7 @@
+.card__rating-wrapper {
+    padding: 9px 15px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 0px 0px 10px 10px;
+}

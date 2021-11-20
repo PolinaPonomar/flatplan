@@ -1,0 +1,12 @@
+.starbar__item {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../images/empty-star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.starbar__item:last-of-type {
+    margin-right: 0;
+}

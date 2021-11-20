@@ -1,0 +1,37 @@
+.card__img {
+    margin-top: 9px;
+    width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-image: url(../../../images/interior-photo.jpg);
+    background-size: cover;
+    position: relative;
+    font-family: 'Gotham Pro';
+}
+
+.card__img::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 7px;
+    width: 306px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #8B8B8B;
+    z-index: -1;
+}
+
+.card__img::after{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 13px;
+    width: 294px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #C6C6C6;
+    z-index: -2;
+}
