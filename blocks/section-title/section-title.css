@@ -6,3 +6,10 @@
     line-height: 115%;
     color: #000000;
 }
+
+@media screen and (max-width: 400px) {
+    .section-title {
+        font-size: 36px;
+        line-height: 125%;
+    }
+}

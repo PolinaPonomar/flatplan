@@ -1,0 +1,31 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/Formular/Formular.css);
+@import url(../vendor/fonts/GothamPro/GothamPro.css); 
+
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/section-title/section-title.css);
+
+@import url(../blocks/progects/progects.css);
+@import url(../blocks/progects/__cards/progects__cards.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__mark-wrapper/card__mark-wrapper.css);
+@import url(../blocks/card/__mark/card__mark.css);
+@import url(../blocks/card/__mark/_аttention/card__mark_аttention.css);
+@import url(../blocks/card/__rating-wrapper/card__rating-wrapper.css);
+@import url(../blocks/card/__rating/card__rating.css);
+@import url(../blocks/card/__rating-text/card__rating-text.css);
+@import url(../blocks/card/__text/card__text.css);
+
+@import url(../blocks/starbar/starbar.css);
+@import url(../blocks/starbar/__item/starbar__item.css);
+@import url(../blocks/starbar/__item/_active/starbar__item_active.css);
+
+@import url(../blocks/button/button.css);
